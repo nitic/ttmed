@@ -60,8 +60,8 @@ $content = '<div class="itemIntroText">
        <tr>
           <td> 
 		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/support/santi.png" alt="นายสันติ แซ่เต็ง" /></dt>
-		  <dd><h4>นายสันติ แซ่เต็ง</h4></dd>
+		  <dt><img src="images/staff/support/santi.png" alt="นายธนัท เต็งพาณิชยกุล" /></dt>
+		  <dd><h4>นายธนัท เต็งพาณิชยกุล</h4></dd>
 		  <dd>นักวิชาการอุดมศึกษา</dd>
                   <dd>ภาระงาน: งานบัณฑิตศึกษา / สื่อการเรียนรู้</dd>
 		  <dd>โทร: 0 7428 2707 </dd>
