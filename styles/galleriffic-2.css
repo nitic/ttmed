@@ -1,0 +1,141 @@
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: left;
+	height: 350px;
+	/*border:1px solid #F00;*/
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #777;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+
+div.slideshow-container {
+	position: relative;
+	height: 180px; /* This should be set to be at least the height of the largest image in the slideshow */
+	width:300px;
+	/*border:1px solid #F00;*/
+}
+
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	text-align: center;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+
+div.caption-container {
+	position: relative;
+	clear: left;
+	height: 75px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.caption {
+	font-family: Helvetica, Arial, Thonburi, Tahoma, FreeSans, sans-serif;
+	padding: 12px;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+
+
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 10px 5px 0;
+	list-style: none;
+}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #CCC;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+
+
+/* ADDRESS /////////////////////////////////////////////////////// */
+
+address.contact-card {
+	font-style: normal;
+	font-size: 0.9em;
+}
+
+dl.address {
+	padding: 0 5px 5px 0;
+	margin: 0 auto;
+	width: 365px;
+}
+dl.address dt {
+	width: 50px;
+	height: 20px;
+	margin: 0;
+	padding: 0 5px 0 0;
+	float: left;
+	color: #666;
+}
+dl.address dd {
+	display: block;
+	width: 250px;
+	min-height: 20px;
+	margin: 0 0 0 30px;
+	padding: 0 5px;
+	border: 0;
+}
+dl.address dd.fill {
+	display: block;
+	width: 365px;
+	min-height: 20px;
+	margin: 0 0 5px;
+	padding: 0;
+	border: 0;
+}
+div.contact-information dl.address {
+	margin: 0 auto;
+	width: 350px;
+	border: none;
+}
+div.contact-information dl.address dd {
+	width: 260px;
+}
+div.contact-information dl.contact-name dt {
+	margin:0 auto;	
+}
+div.contact-information dl.contact-name dd{
+   margin:0 auto;	
+}
+
+/* END ADDRESS ////////////////////////////////////////////////////////*/

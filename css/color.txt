@@ -1,0 +1,6 @@
+all color
+#e44f50
+
+button
+#e1393a
+

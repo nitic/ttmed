@@ -1,0 +1,62 @@
+/*
+Responsive Template Name: RS-1 Clean
+File: Homepage CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+
+#shout{padding:15px 0 15px 0;}
+#shout figure{}
+#shout figure div{display:block; float:left; width:45.83333%;}
+#shout figure div img{}
+#shout figure figcaption{display:block; float:right; width:52.08333%; font-size:1.3em; line-height:1.6em;}
+#shout figure figcaption h1{display:inline-block; margin:15% 0 0 0; padding:0; color:#000000; background-color:#FFFFFF; font-size:2em; text-transform:uppercase;}
+#shout figure figcaption p{margin:0 0 15px 0; padding:0;}
+
+#container {font-family: Helvetica, Arial, Thonburi, Tahoma, FreeSans, sans-serif;f}
+#container #homepage{display:block; width:100%; line-height:1.6em;}
+
+#container #homepage #intro{margin-bottom:30px;}
+#container #homepage #intro article{}
+#container #homepage #intro article img{margin:0 0 15px 0;}
+#container #homepage #intro article h2{}
+#container #homepage #intro article p{margin:10px 0; padding:0;}
+#container #homepage #intro article footer{}
+
+#container #homepage #services{margin-bottom:0; padding-top:30px; border-top:1px solid #D6D6D6;}
+#container #homepage #services article{}
+#container #homepage #services article footer{text-align:right;}
+
+#container #full-text{font-family: Helvetica, Arial, Thonburi, Tahoma, FreeSans, sans-serif;font-size:13px;line-height: 1.2;}
+#container #full-text h1{font-weight:bold;}
+#container #full-text div{font-size: 0.8em;padding: 0 5px 10px 0;}
+#container #full-text .imgl {float:left; margin:0 30px 30px 0;}
+#container #full-text li{margin-top:8px;}
+#container #full-text a{color:#FF9900; font-weight:bold;}
+
+#container ul.submenu{list-style: none;margin: 0 0 5px; padding: 0 0 2px; overflow: hidden;}
+#container ul.submenu li {float: left; margin: 0 5px 0 0; padding: 5px 0;}
+#container ul.submenu li a {padding: 5px 10px; background-color: #CCC; text-decoration: none; color: #FFF; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; font-size: 0.8em;}
+#container ul.submenu li a:hover {color: #333;}
+
+#services .subscribe li {margin:8px; font-family: Helvetica, Arial, sans-serif; font-size: 11px; letter-spacing: -0.02em; clear: none;}
+#services .subscribe li span{ color:#FF9900; font-style:italic; margin-right:5px;}
+#services .subscribe li a{color:#000;}
+
+#footer .subscribe li {list-style:inside; margin:8px; font-family: Helvetica, Arial, sans-serif; font-size: 11px; letter-spacing: -0.05em; clear: none;}
+#footer .subscribe li span{ color:#FF9900; font-style:italic; margin-right:5px;}
+#footer .subscribe li a{color:#000;}
+
+#footer #intro article p{font-family: Helvetica, Arial, Thonburi, Tahoma, FreeSans, sans-serif; font-size:11px}
+#footer #intro article a{color:#333;}
+#footer #intro .title span{font-size: 11px; padding-left:5px; color:#FF9900;}
+
+#footer .quicklinks li {margin-left:35px;}
+
+footer.more{display:inline-block; padding:8px 10px; color:#FFFFFF; background-color:#EC4D48;}
+footer.more a{color:#FFFFFF; background-color:#EC4D48;}
+
+#flip1 li div.myClass{background-color:navy;}
+
