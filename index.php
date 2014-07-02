@@ -42,7 +42,7 @@ else{   // No event ID is first time come to website
 	// 1 is open
 	// 0 is close
 	
-	setcookie("myModalCheck",'0',time()+3600); 
+	setcookie("myModalCheck",'1',time()+3600); 
 
 
 	

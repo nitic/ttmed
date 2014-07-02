@@ -9,12 +9,23 @@ $tags = array('บุคลากร', 'คณาจารย์', 'อาจา
 $content = '<div class="itemIntroText">
     <table class="table">
        <tbody>
+         <tr>
+          <td> 
+		 <dl class="dl-horizontal">
+		  <dt><img src="images/staff/teacher/nantiya.png" alt="ดร.นันทิยา จ้อยชะรัด" /></dt>
+		  <dd><h4>ผศ.ดร.นันทิยา จ้อยชะรัด</h4></dd>
+		  <dd>ผู้ประสานงานสาขาวิชา / อาจารย์ประจำ</dd>
+		  <dd>โทร: 0 7428 2722</dd>
+		  <dd>อีเมล์: nantiya.j@psu.ac.th</dd> 
+		</dl>
+           </td>
+        </tr>
         <tr>
           <td> 
 		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/teacher/oratai.png" alt="ดร.อรทัย เนียมสุวรรณ" /></dt>
+		  <dt><img src="images/staff/teacher/oratai2.png" alt="ดร.อรทัย เนียมสุวรรณ" /></dt>
 		  <dd><h4>ผศ.ดร.อรทัย เนียมสุวรรณ</h4></dd>
-		  <dd>ผู้ประสานงานสาขาวิชา / อาจารย์ประจำ</dd>
+		  <dd>อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2707</dd>
 		  <dd>อีเมล์: oratai.n@psu.ac.th</dd> 
 		</dl>
@@ -31,17 +42,7 @@ $content = '<div class="itemIntroText">
 		</dl>
            </td>
         </tr>
-         <tr>
-          <td> 
-		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/teacher/nantiya.png" alt="ดร.นันทิยา จ้อยชะรัด" /></dt>
-		  <dd><h4>ผศ.ดร.นันทิยา จ้อยชะรัด</h4></dd>
-		  <dd>อาจารย์ประจำ</dd>
-		  <dd>โทร: 0 7428 2722</dd>
-		  <dd>อีเมล์: nantiya.j@psu.ac.th</dd> 
-		</dl>
-           </td>
-        </tr>
+        
         <tr>
           <td> 
 		 <dl class="dl-horizontal">

@@ -9,14 +9,14 @@ $tags = array('บุคลากร', 'คณาจารย์', 'อาจา
 $content = '<div class="itemIntroText">
     <table class="table">
        <tbody>
-        <tr>
+       <tr>
           <td> 
 		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/teacher/sasitorn.png" alt="ดร.ศศิธร ชูศรี" /></dt>
-		  <dd><h4>ผศ.ดร.ศศิธร ชูศรี</h4></dd>
+		  <dt><img src="images/staff/teacher/surasak.png" alt="ดร.สุรศักดิ์ ลิ้มสุวรรณ" /></dt>
+		  <dd><h4>ดร.สุรศักดิ์ ลิ้มสุวรรณ</h4></dd>
 		  <dd>ผู้ประสานงานสาขาวิชา / อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2722 </dd>
-		  <dd>อีเมล์: sasitorn.chu@psu.ac.th</dd> 
+		  <dd>อีเมล์: surasak.﻿l@psu.ac.th</dd> 
 		</dl>
            </td>
         </tr>
@@ -64,14 +64,14 @@ $content = '<div class="itemIntroText">
 		</dl>
            </td>
         </tr>
-        <tr>
+         <tr>
           <td> 
 		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/teacher/surasak.png" alt="ดร.สุรศักดิ์ ลิ้มสุวรรณ" /></dt>
-		  <dd><h4>ดร.สุรศักดิ์ ลิ้มสุวรรณ</h4></dd>
+		  <dt><img src="images/staff/teacher/sasitorn.png" alt="ดร.ศศิธร ชูศรี" /></dt>
+		  <dd><h4>ผศ.ดร.ศศิธร ชูศรี</h4></dd>
 		  <dd>อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2722 </dd>
-		  <dd>อีเมล์: surasak.﻿l@psu.ac.th</dd> 
+		  <dd>อีเมล์: sasitorn.chu@psu.ac.th</dd> 
 		</dl>
            </td>
         </tr>

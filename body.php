@@ -185,9 +185,8 @@ include("footer.php");
   </div>
   <div class="modal-body">
     <p>
-	      หลักฐานใบรับรองแพทย์ที่ต้องนำไปในวันสอบสัมภาษณ์ในการสอบคัดเลือกบุคคลเข้าศึกษาในคณะการแพทย์แผนไทย
-          มหาวิทยาลัยสงขลานครินทร์ (โดยใช้คะแนนสอบ GET/PAT ครั้งที่ 1/2557 และวิชาสามัญฯ"
-		   <a href="https://drive.google.com/file/d/0B5WWizgbgU2uTDNCLUdHQ2Y0WnM/edit?usp=sharing" target="_blank"> คลิกอ่านรายละเอียด</a>
+	      หลักฐานใบรับรองแพทย์ที่นักเรียนต้องนำไปในวันสอบสัมภาษณ์รับรวม (Admissions) ประจำปีการศึกษา 2557
+		   <a href="https://docs.google.com/file/d/0B5WWizgbgU2uM1I2RUR2M2RtMGs/edit" target="_blank"> คลิกอ่านรายละเอียด</a>
     </p>
   </div>
   <div class="modal-footer">
