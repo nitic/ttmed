@@ -13,10 +13,18 @@ class Gellary_Model{
 		return $this->dba->Selected($Field,$Table);
 	}
 
-	function get_gellery(){
+	function get_picture(){
 		$Field = "title, link, photo";
-		$Table = "gellary ORDER BY id DESC LIMIT 0, 6";
-		return $this->dba->Selected($Field,$Table);
+		$Table = "gellary";
+		$Condition = "type = 'picture' ORDER BY id DESC LIMIT 0, 4";
+		return $this->dba->SelectRecords($Field,$Table,$Condition);
+	}
+	
+	function get_video(){
+		$Field = "title, link, photo";
+		$Table = "gellary";
+		$Condition = "type = 'video' ORDER BY id DESC LIMIT 0, 4";
+		return $this->dba->SelectRecords($Field,$Table,$Condition);
 	}
 	
 	function __destruct() {

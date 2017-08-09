@@ -13,10 +13,24 @@ class Article_Model{
 		return $this->dba->Selected($Field,$Table);
 	}
 	
+	function count_article($type){
+		$Field = "count(blogid)";
+		$Table = "blogs";
+		$Condition = "category = ".$type;
+		return $this->dba->SelectRecords($Field,$Table,$Condition);
+	}
+	
 	function get_lists_article(){
 		$Field = "blogid, title";
 		$Table = "blogs ORDER BY blogid DESC LIMIT 0, 5";
 		return $this->dba->Selected($Field,$Table);
+	}
+	
+	function get_lists_pagination($limit, $type){
+		$Field = "blogid, title, pubtime, category, picture";
+		$Table = "blogs";
+		$Condition = "category = ".$type." ORDER BY blogid DESC LIMIT ".$limit.", 20";
+		return $this->dba->SelectRecords($Field,$Table,$Condition);
 	}
 
 	function get_relate_article(){

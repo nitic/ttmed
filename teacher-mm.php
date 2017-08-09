@@ -12,14 +12,15 @@ $content = '<div class="itemIntroText">
         <tr>
           <td> 
 		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/teacher/phatsasi.png" alt="อ.ภัทรศศิร์ เหล่าจีนวงค์" /></dt>
-		  <dd><h4>อ.ภัทรศศิร์ เหล่าจีนวงค์</h4></dd>
+		  <dt><img src="images/staff/teacher/kochakorn.png" alt="อ.กชกร สุขจันทร์อินทนูจิตร" /></dt>
+		  <dd><h4>อ.กชกร สุขจันทร์อินทนูจิตร</h4></dd>
 		  <dd>ผู้ประสานงานสาขาวิชา / อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2722 </dd>
-		  <dd>อีเมล์: phatsasi.l@psu.ac.th</dd> 
+		  <dd>อีเมล์: kochakorn.s@psu.ac.th</dd> 
 		</dl>
            </td>
         </tr>
+        <!--
         <tr>
           <td> 
 		 <dl class="dl-horizontal">
@@ -31,6 +32,7 @@ $content = '<div class="itemIntroText">
 		</dl>
            </td>
         </tr>
+        -->
          <tr>
           <td> 
 		 <dl class="dl-horizontal">
@@ -39,17 +41,6 @@ $content = '<div class="itemIntroText">
 		  <dd>อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2722 </dd>
 		  <dd>อีเมล์: chonlatid.s@psu.ac.th</dd> 
-		</dl>
-           </td>
-        </tr>
-        <tr>
-          <td> 
-		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/teacher/kochakorn.png" alt="อ.กชกร สุขจันทร์อินทนูจิตร" /></dt>
-		  <dd><h4>อ.กชกร สุขจันทร์อินทนูจิตร</h4></dd>
-		  <dd>อาจารย์ประจำ</dd>
-		  <dd>โทร: 0 7428 2722 </dd>
-		  <dd>อีเมล์: kochakorn.s@psu.ac.th</dd> 
 		</dl>
            </td>
         </tr>
@@ -72,6 +63,17 @@ $content = '<div class="itemIntroText">
 		  <dd>อาจารย์ผู้ช่วยสอน</dd>
 		  <dd>โทร: 0 7428 2721 </dd>
 		  <dd>อีเมล์: siriporn.ja@psu.ac.th</dd> 
+		</dl>
+           </td>
+        </tr>
+         <tr>
+          <td> 
+		 <dl class="dl-horizontal">
+		  <dt><img src="images/staff/teacher/phatsasi.png" alt="อ.ภัทรศศิร์ เหล่าจีนวงค์" /></dt>
+		  <dd><h4>อ.ภัทรศศิร์ เหล่าจีนวงค์</h4></dd>
+		  <dd>(ลาศึกษาต่อ)</dd>
+		  <dd>โทร: 0 7428 2722 </dd>
+		  <dd>อีเมล์: phatsasi.l@psu.ac.th</dd> 
 		</dl>
            </td>
         </tr>

@@ -20,7 +20,7 @@
 
 <style type="text/css" >
 body.normalpage #page {background:url(images/normalheader.jpg) center top no-repeat; height:255px;}
-body.normalpage {background:url(images/normalhtml.jpg) left top repeat-x;}
+body.normalpage {background:url(images/normalhtml.jpg) left top repeat-x; }
 #pagefooter {background:url(images/footerbg.jpg) repeat-x; height:351px; width:100%; padding-top:11px;}
 </style>
 
@@ -45,11 +45,9 @@ body.normalpage {background:url(images/normalhtml.jpg) left top repeat-x;}
 <h2>ข่าวประชาสัมพันธ์</h2>
 <article>
 <p>
-- ทุนโครงการพัฒนาอาจารย์เพื่อการรับอาจารย์วุฒิปริญญาเอก (Ready Made) <a href="https://drive.google.com/file/d/0B5WWizgbgU2ubnEwWTk5VHF4d0k/edit?usp=sharing" target="_blank">คลิก</a> <img src="/units/images/new.gif"  >
+-ทิศทางงานวิจัย ปีงบประมาณ 2558<a href="https://drive.google.com/file/d/0B5WWizgbgU2ueS1fRGI5Wm1wMU0/view?usp=sharing" target="_blank">คลิก</a> <img src="/units/images/new.gif"  >
 </p>
-<p>
--ประชาสัมพันธ์ทุนวิจัยจากเงินรายได้มหาวิทยาลัยสงขลานครินทร์  ประจำปีงบประมาณ 2556 จำนวน 12 ประเภททุน ผู้สนใจสามารถดูรายละเอียดได้ที่  <a href="http://rdo.psu.ac.th/index.php/funding/internal/revenues" target="_blank">http://rdo.psu.ac.th/index.php/funding/internal/revenues</a>
-</p>
+
 
 <?php
 

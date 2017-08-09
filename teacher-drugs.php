@@ -35,7 +35,7 @@ $content = '<div class="itemIntroText">
           <td> 
 		 <dl class="dl-horizontal">
 		  <dt><img src="images/staff/teacher/katesarin.png" alt="ดร.เกศริน มณีนูน" /></dt>
-		  <dd><h4>ดร.เกศริน มณีนูน</h4></dd>
+		  <dd><h4>ผศ.ดร.เกศริน มณีนูน</h4></dd>
 		  <dd>อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2722</dd>
 		  <dd>อีเมล์: katesarin.m@psu.ac.th</dd> 
@@ -58,8 +58,8 @@ $content = '<div class="itemIntroText">
           <td> 
 		 <dl class="dl-horizontal">
 		  <dt><img src="images/staff/teacher/patcharawalai.png" alt="อ.พัชรวลัย ใจสมุทร" /></dt>
-		  <dd><h4>อ.พัชรวลัย ใจสมุทร</h4></dd>
-		  <dd>(ลาศึกษาต่อ)</dd>
+		  <dd><h4>ดร.พัชรวลัย ใจสมุทร</h4></dd>
+		  <dd>อาจารย์ประจำ</dd>
 		  <dd>โทร: 0 7428 2722 </dd>
 		  <dd>อีเมล์: patcharawalai.j@psu.ac.th</dd> 
 		</dl>

@@ -5,9 +5,12 @@ switch ($_GET["page"]) {
 	case 'bachelor':
 		include("bachelor.php");
 		break;
-        case 'master':
+  case 'master':
 		include("master.php");
 		break;
+  case 'doctor':
+    include("doctor.php");
+    break;
 	default:
 		include("bachelor.php");
 		break;

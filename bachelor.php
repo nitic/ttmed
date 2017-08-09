@@ -130,7 +130,8 @@
      <p>
       <h3>ดาว์โหลด</h3>
        <ul>
-          <li><a href="https://docs.google.com/file/d/0B5WWizgbgU2uekpkV1JFNzVnQVU/edit?usp=sharing" target="_blank">โครงสร้างหลักสูตร พท.บ.หลักสูตรปรับปรุง พ.ศ. 2554 (ใช้กับนักศึกษาที่เข้าศึกษาในปีการศึกษา 2554 - ปัจจุบัน)</a></li>
+       	  <li><a href="https://drive.google.com/file/d/0B5WWizgbgU2uaVNOdl9KU0VSQnc/view?usp=sharing" target="_blank">โครงสร้างหลักสูตร พท.บ.หลักสูตรปรับปรุง พ.ศ. 2559 (ใช้กับนักศึกษาที่เข้าศึกษาในปีการศึกษา 2560 เป็นต้นไป)</a></li>
+          <li><a href="https://drive.google.com/file/d/0B5WWizgbgU2uTlpzQl9JNDVUQkE/view?usp=sharing" target="_blank">โครงสร้างหลักสูตร พท.บ.หลักสูตรปรับปรุง พ.ศ. 2554 (ใช้กับนักศึกษาที่เข้าศึกษาในปีการศึกษา 2554 - 2559)</a></li>
           <li><a href="https://docs.google.com/file/d/0B5WWizgbgU2uS2R0RHE3b2tqTkk/edit?usp=sharing" target="_blank">โครงสร้างหลักสูตร พท.บ.หลักสูตรปรับปรุง พ.ศ. 2552 (ใช้กับนักศึกษาที่เข้าศึกษาในปีการศึกษา 2553 - 2554)</a></li>
           <li><a href="https://docs.google.com/file/d/0B5WWizgbgU2uYkprNm9vLTBkVWc/edit?usp=sharing" target="_blank">โครงสร้างหลักสูตร วท.บ.หลักสูตรปรับปรุง พ.ศ. 2550</a></li>
         </ul>

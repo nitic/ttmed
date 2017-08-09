@@ -1,5 +1,5 @@
 ﻿<!-- MAIN NAVIGATION -->
-<nav id="t3-mainnav" class="wrap t3-mainnav ">
+<nav id="t3-mainnav" class="wrap t3-mainnav">
   <div class="container navbar">
     <div class="navbar-inner">
 
@@ -9,17 +9,17 @@
         <span class="icon-bar"></span>
       </button>
 
-<div class="nav-collapse collapse always-show">
-<div class="t3-megamenu animate slide" data-duration="400">
+<div class="nav-collapse collapse always-show ">
+<div class="t3-megamenu animate slide " data-duration="400">
 
 <ul class="nav level0">
 	<li class="current active" data-id="435" data-level="1" data-xicon="icon-home">
-	<a  href="index.php"  ><i class="icon-home"></i>หน้าแรก </a>
+	<a  href="index.php"  ><i class="icon-home"></i>Home </a>
 	</li>
 
 	<li class="dropdown mega" data-id="233" data-level="1" data-xicon="icon-pencil">
 		<a class=" dropdown-toggle" href="#"  data-toggle="dropdown">
-		  <i class="icon-pencil"></i>เกี่ยวกับคณะ <b class="caret"></b></a>
+		  <i class="icon-pencil"></i>About <b class="caret"></b></a>
 		<div class="nav-child dropdown-menu mega-dropdown-menu" style="width:250px" >
 		<div class="mega-dropdown-inner">
 		<div class="row-fluid">
@@ -76,16 +76,19 @@
 </li>
 
 <li class="dropdown mega" data-id="238" data-level="1" data-xicon="icon-cog">
-<a class=" dropdown-toggle" href="#"   data-toggle="dropdown"><i class="icon-cog"></i>หลักสูตร <b class="caret"></b></a>
+<a class=" dropdown-toggle" href="#"   data-toggle="dropdown"><i class="icon-cog"></i>Education <b class="caret"></b></a>
 <div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
 <div class="row-fluid">
 <div class="span12 mega-col-nav" data-width="12"><div class="mega-inner">
 <ul class="mega-nav level1">
 <li  data-id="492" data-level="2">
-<a href="program.php?page=bachelor"  >หลักสูตรปริญญาตรี</a>
+<a href="program.php?page=bachelor">หลักสูตรปริญญาตรี</a>
 </li>
 <li  data-id="493" data-level="2">
-<a href="program.php?page=master"  >หลักสูตรปริญญาโท</a>
+<a href="program.php?page=master">หลักสูตรปริญญาโท</a>
+</li>
+<li  data-id="493" data-level="2">
+<a href="program.php?page=doctor">หลักสูตรปริญญาเอก</a>
 </li>
 </ul>
 </div></div>
@@ -94,7 +97,7 @@
 </li>
 
 <li class="dropdown mega mega-align-justify sub-hidden-collapse" data-id="489" data-level="1" data-alignsub="justify" data-xicon="icon-briefcase" data-hidewcol="1">
-<a class=" dropdown-toggle" href="#"   data-toggle="dropdown"><i class="icon-sitemap"></i>สาขาวิชา/หน่วยงาน <b class="caret"></b></a>
+<a class=" dropdown-toggle" href="#"   data-toggle="dropdown"><i class="icon-sitemap"></i>Organisation <b class="caret"></b></a>
 <div class="nav-child dropdown-menu mega-dropdown-menu span12"  >
 <div class="mega-dropdown-inner">
 <div class="row-fluid">
@@ -137,27 +140,33 @@
 
 <div class="span4 mega-col-module" data-width="4" data-position="188"><div class="mega-inner">
 <div class="t3-module module  " id="Mod188"><div class="module-inner"><h3 class="module-title ">
-<span>ฝ่ายสนับสนุนวิชาการ</span></h3><div class="module-ct">
+<span><a style="color:#000" onMouseOver="this.style.color='#d7ae1c'" onMouseOut="this.style.color='#000'" href="https://sites.google.com/a/psu.ac.th/ttmed-academic/" target="_blank">ฝ่ายสนับสนุนวิชาการ</a></span></h3><div class="module-ct">
      <div class="row-fluid">
 				<div class="span12 mega-col-nav" data-width="12"><div class="mega-inner">
 					<ul class="mega-nav level2">
 						<li  data-id="560" data-level="3">
-						<a href="units/research/" target="_blank">งานวิจัยและบัณฑิตศึกษา</a>
+						<a href="https://sites.google.com/a/psu.ac.th/ttmed-research/" target="_blank">งานวิจัย</a>
+						</li>
+						<li  data-id="560" data-level="3">
+						<a href="https://sites.google.com/site/gradttmed/" target="_blank">งานบัณฑิตศึกษา</a>
+						</li>
+						<li  data-id="560" data-level="3">
+						<a href="https://sites.google.com/a/psu.ac.th/ttmed-student/" target="_blank">งานกิจการนักศึกษา</a>
 						</li>
 						<li  data-id="561" data-level="3">
-						<a  href="units/clerkship/" target="_blank" >งานฝึกปฏิบัติงานเชิงวิชาชีพ</a>
+						<a  href="https://sites.google.com/a/psu.ac.th/clerkship/" target="_blank" >งานฝึกปฏิบัติงานเชิงวิชาชีพ</a>
+						</li>
+						<li  data-id="561" data-level="3">
+						<a  href="https://sites.google.com/a/psu.ac.th/ttmed-examination/" target="_blank" >การสอบใบประกอบวิชาชีพ & การสอบประมวลฯ</a>
 						</li>
 						<li  data-id="559" data-level="3">
-						<a  href="units/comprehensive/" target="_blank">งานการสอบประมวลความรอบรู้</a>
+						<a  href="https://sites.google.com/a/psu.ac.th/ttmed-library/" target="_blank">งานห้องสมุด</a>
 						</li>
 						<li  data-id="559" data-level="3">
-						<a  href="units/certificate/" target="_blank">งานการสอบใบประกอบโรคศิลปะ</a>
+						<a href="https://sites.google.com/a/psu.ac.th/ttmed-av/" target="_blank">งานโสตทัศนูปกรณ์และสื่อการเรียนรู้</a>
 						</li>
 						<li  data-id="559" data-level="3">
-						<a href="units/cai/" target="_blank">งานสื่อการเรียนรู้</a>
-						</li>
-						<li  data-id="559" data-level="3">
-						<a  href="units/it/" target="_blank">งานเทคโนโลยีสารสนเทศ</a>
+						<a  href="https://sites.google.com/a/psu.ac.th/ttmed-it/" target="_blank">งานเทคโนโลยีสารสนเทศ</a>
 						</li>
 			        </ul>
 				</div>
@@ -186,8 +195,11 @@
 						<li  data-level="3">
 						<a  href="http://goo.gl/htsABg" target="_blank" >งานนโยบายและแผน</a>
 						</li>
+						<li  data-level="3">
+						<a  href="http://goo.gl/tFaAVU" target="_blank" >งานบริหารความเสี่ยง</a>
+						</li>
                          <li data-level="3">
-						<a  href="http://goo.gl/NRGmCk" target="_blank" >งานพัสดุ (ข้อมูลบัญชีวัสดุ)</a>
+						<a  href="https://sites.google.com/a/psu.ac.th/ttmed-stock/" target="_blank" >งานพัสดุ</a>
 						</li>
 			        </ul>
 				</div>
@@ -204,7 +216,7 @@
 
 <li class="dropdown mega" data-level="1" data-xicon="icon-text-width">
 		<a class=" dropdown-toggle" href="#"  data-toggle="dropdown">
-		  <i class="icon-user"></i>บุคลากร <b class="caret"></b></a>
+		  <i class="icon-user"></i>Personnel <b class="caret"></b></a>
 		<div class="nav-child dropdown-menu mega-dropdown-menu" style="width:280px" >
 		<div class="mega-dropdown-inner">
 		<div class="row-fluid">
@@ -237,13 +249,13 @@
 				</div>
 	            </li>
 				<li data-level="2">
-				<a href="staff.php?page=general">ฝ่ายบริหารงานทั่วไป</a>
+				<a href="staff.php?page=general">ฝ่ายบริหารทั่วไป</a>
 				</li>
 				<li data-level="2">
 				<a href="staff.php?page=academic">ฝ่ายสนับสนุนวิชาการ</a>
 				</li>
 				<li data-level="2">
-				<a href="staff.php?page=subject">สายสนับสาขาวิชา</a>
+				<a href="staff.php?page=subject">สายสนับสนุนสาขาวิชา</a>
 				</li>
 				<li data-level="2">
 				<a href="staff.php?page=hospital">โรงพยาบาลการแพทย์แผนไทย</a>
@@ -259,7 +271,7 @@
 
 
 <li data-level="1" data-xicon="icon-globe">
-<a  href="/english/index.php"  ><i class="icon-globe"></i>English</a>
+<a  href="/english/index.php"  ><i class="icon-globe"></i>English Version</a>
 </li>
 </ul>
 </div>

@@ -106,7 +106,7 @@ include_once("controller/tag.php");
 	  
 	  	  <!-- Item Image -->
 	 <?php 
-         if($data['typeID'] != '99' ||  $data['picture'] != ''):
+         if($data['typeID'] != '99'):
      ?>	 
 	  <div class="itemImageBlock">
 	    <span class="itemImage">
@@ -243,12 +243,14 @@ include_once("controller/tag.php");
 <div class="module-inner">
 <h3 class="module-title "><span>ประเภทบทความ</span></h3><div class="module-ct">
 <ul class="nav ">
-<li class="item-435"><a href="articles.php" >บทความทั่วไป</a></li>
-<li class="item-233 active parent"><a href="articles.php" >บทความงานวิจัย</a></li>
-<li class="item-238 parent"><a href="articles.php" >บทความทางเวชกรรมไทย</a></li>
-<li class="item-489"><a href="articles.php" >บทความทางเภสัชกรรมไทย</a></li>
-<li class="item-532"><a href="articles.php" >บทความทางผดุงครรภ์ไทย</a></li>
-<li class="item-491"><a href="articles.php" >บทความทางนวดไทย</a></li>
+<li class="item-435"><a href="articles.php" >บทความทั้งหมด</a></li>
+<li class="item-435"><a href="articles.php?type=1" >บทความทั่วไป</a></li>
+<li class="item-233 active parent"><a href="articles.php?type=2" >บทความงานวิจัย</a></li>
+<li class="item-238 parent"><a href="articles.php?type=3" >บทความทางเวชกรรมไทย</a></li>
+<li class="item-489"><a href="articles.php?type=4" >บทความทางเภสัชกรรมไทย</a></li>
+<li class="item-532"><a href="articles.php?type=5" >บทความทางผดุงครรภ์ไทย</a></li>
+<li class="item-491"><a href="articles.php?type=6" >บทความทางนวดไทย</a></li>
+<li class="item-491"><a href="articles.php?type=99" >บทความประชาสัมพันธ์</a></li>
 </ul>
 </div></div></div>
 

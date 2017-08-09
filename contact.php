@@ -15,11 +15,12 @@ $content = '<div class="itemIntroText">
           <dt>วันเวลาทำการ:</dt>  
           <dd>วันจันทร์-ศุกร์ เวลา 8.30-16.30 น.</dd>
           <dt>โทรศัพท์:</dt>  
-          <dd>0 7428 2701-8</dd>
+          <dd>0 7428 2701-22</dd>
           <dt>โทรสาร:</dt>  
           <dd>0 7428 2709</dd>
           <dt>อีเมล์:</dt>  
-          <dd>ttmed@gmail.com</dd>
+          <dd>ttmed.psu@gmail.com</dd>
+          <dd>ttmed@psu.ac.th</dd>
           <dt>ช่องทางอื่นๆ:</dt>  
           <dd><a href="http://www.facebook.com/pages/Hat-Yai-Thailand/TtmedPsu/181269609785" target="_blank" > Facebook</a> / <a href="http://twitter.com/ttmedpsu" target="_blank" > Twitter</a></dd>
       </dl> 

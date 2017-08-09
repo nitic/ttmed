@@ -15,7 +15,7 @@ $content = '<div class="itemIntroText">
 		  <dd><h4>นายมานะ รักษ์วงศ์</h4></dd>
 		  <dd>นักวิชาการศึกษาชำนาญการพิเศษ / รักษาการในตำแหน่งหัวหน้าฝ่ายสนับสนุนวิชาการ</dd>
                   <dd></dd>
-                  <dd>ภาระงาน: การจัดการศึกษาระดับปริญญาตรี / บัณฑิตศึกษา</dd>
+                  <dd>ภาระงาน: การจัดการศึกษาระดับปริญญาตรี / งานหลักสูตรปริญญาตรี</dd>
 		  <dd>โทร: 0 7428 2702 </dd>
 		  <dd>อีเมล์: mana.ra@psu.ac.th</dd> 
 		</dl>
@@ -50,7 +50,7 @@ $content = '<div class="itemIntroText">
 		 <dl class="dl-horizontal">
 		  <dt><img src="images/staff/support/niti.png" alt="นายนิติ โชติแก้ว" /></dt>
 		  <dd><h4>นายนิติ โชติแก้ว</h4></dd>
-		  <dd>นักวิชาการอุดมศึกษา</dd>
+		  <dd>นักวิชาการคอมพิวเตอร์</dd>
                   <dd>ภาระงาน: งานเทคโนโลยีสารสนเทศ / งานโสตทัศนูปกรณ์</dd>
 		  <dd>โทร: 0 7428 2716 </dd>
 		  <dd>อีเมล์: niti.c@psu.ac.th</dd> 
@@ -74,7 +74,7 @@ $content = '<div class="itemIntroText">
 		 <dl class="dl-horizontal">
 		  <dt><img src="images/staff/support/rattanavilai.png" alt="นางสาวรัตนาวิไล ถาวรสุวรรณ์" /></dt>
 		  <dd><h4>นางสาวรัตนาวิไล ถาวรสุวรรณ์</h4></dd>
-		  <dd>นักวิชาการศึกษา</dd>
+		  <dd>พนักงานบริหารทั่วไป</dd>
                   <dd>ภาระงาน: งานวิเทศสัมพันธ์ / งานทะเบียนนักศึกษา</dd>
 		  <dd>โทร: 0 7428 2701 </dd>
 		  <dd>อีเมล์: rattanavilai.th@psu.ac.th</dd> 

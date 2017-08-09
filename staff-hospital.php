@@ -19,6 +19,7 @@ $content = '<div class="itemIntroText">
 		</dl>
            </td>
         </tr>
+        <!--
         <tr>
           <td> 
 		 <dl class="dl-horizontal">
@@ -30,12 +31,13 @@ $content = '<div class="itemIntroText">
 		</dl>
            </td>
         </tr>
+        -->
         <tr>
           <td> 
 		 <dl class="dl-horizontal">
 		  <dt><img src="images/staff/hospital/supannika.png" alt="นางสาวสุพรรณิกา ใจสมัน" /></dt>
 		  <dd><h4>นางสาวสุพรรณิกา ใจสมัน</h4></dd>
-		  <dd>นักวิทยาศาสตร์สุขภาพ</dd>
+		  <dd>แพทย์แผนไทย</dd>
 		  <dd>โทร: 0 7428 2712 </dd>
 		  <dd>อีเมล์: supannika.j@psu.ac.th</dd> 
 		</dl>
@@ -46,7 +48,7 @@ $content = '<div class="itemIntroText">
 		 <dl class="dl-horizontal">
 		  <dt><img src="images/staff/hospital/teerawat.png" alt="นายธีรวัฒน์ สุดขาว" /></dt>
 		  <dd><h4>นายธีรวัฒน์ สุดขาว</h4></dd>
-		  <dd>นักวิทยาศาสตร์สุขภาพ</dd>
+		  <dd>แพทย์แผนไทย</dd>
 		  <dd>โทร: 0 7428 2712 </dd>
 		  <dd>อีเมล์: teerawat.sud@psu.ac.th</dd> 
 		</dl>
@@ -77,8 +79,8 @@ $content = '<div class="itemIntroText">
         <tr>
           <td> 
 		 <dl class="dl-horizontal">
-		  <dt><img src="images/staff/hospital/pimwipa.png" alt="นางสาวพิมพ์วิพา แพรกหา" /></dt>
-		  <dd><h4>นางสาวพิมพ์วิพา  แพรกหา</h4></dd>
+		  <dt><img src="images/staff/hospital/pimwipa.png" alt="นางสาวพิมพ์วิภา แพรกหา" /></dt>
+		  <dd><h4>นางสาวพิมพ์วิภา  แพรกหา</h4></dd>
 		  <dd>นักวิทยาศาสตร์สุขภาพ</dd>
 		  <dd>โทร: 0 7428 2712 </dd>
 		  <dd>อีเมล์: pimwipa.p@psu.ac.th</dd> 

@@ -1,9 +1,9 @@
 <?php
 
-$title = 'ฝ่ายบริหารงานทั่วไป';
+$title = 'ฝ่ายบริหารทั่วไป';
 $email = 'ttmed-staff@group.psu.ac.th';
 $pathway = '<li><span>บุคลากร</span><span class="divider">/</span></li>
-            <li><span>ฝ่ายบริหารงานทั่วไป</span></li>';
+            <li><span>ฝ่ายบริหารทั่วไป</span></li>';
 $tags = array('บุคลากร', 'สายสนันสนุน', 'บริหารงานทั่วไป');
 $content = '<div class="itemIntroText">
     <table class="table">

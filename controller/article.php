@@ -1,6 +1,7 @@
 <?php
 require_once(dirname(dirname(__FILE__))."/model/article_model.php");
 require_once(dirname(dirname(__FILE__))."/config/function.php");
+
  
 function show_article($blogid) 
 {
@@ -18,9 +19,60 @@ function show_article($blogid)
        return $result;
 }
 
+function article_table($limit, $type) 
+{
+	$html = '';
+	$e = new Article_Model();
+	$data = $e->get_lists_pagination($limit, $type);
+	 while($row = mysql_fetch_array($data)) {
+		 
+		 
+            $html .= '<tr>';
+			$html .= '<td>'.date("d/m/Y", strtotime($row["pubtime"])).'</td><td>';
+
+			if ($row["category"] != 99) {
+					$html .= '<img src="images/blog/'.$row["picture"].'" style="width:225px;height:125px;" ><br/>';
+			}
+
+			$html .= '<a style="color:#000" href="blog.php?p='.$row["blogid"].'">'.$row["title"].'</a> <i class="icon-external-link"></i></td>';
+			
+			switch($row["category"]){
+				case 1 : $html .= '<td>ทั่วไป</td>'; 
+						 break;
+				case 2 : $html .= '<td>งานวิจัย</td>'; 
+						 break;
+				case 3 : $html .= '<td>เวชกรรมไทย</td>'; 
+						 break;
+				case 4 : $html .= '<td>เภสัชกรรมไทย</td>'; 
+						 break;
+				case 5 : $html .= '<td>ผดุงครรภ์ไทย</td>'; 
+						 break;
+				case 6 : $html .= '<td>นวดไทย</td>'; 
+						 break;
+				case 99 : $html .= '<td>ประชาสัมพันธ์</td>'; 
+						 break;
+				
+			} 
+			
+			$html .= '</tr>';
+         }
+     return $html;
+}
+
+function count_article($type) 
+{
+	$result = 0;
+	$e = new Article_Model();
+	$data = $e->count_article($type);
+	 while($row = mysql_fetch_array($data)) {
+            $result = $row[0];
+         }
+     return $result;
+}
 
 function article_footer_list() 
 {
+	$html = "";
 	$e = new Article_Model();
 	$data = $e->get_lists_article();
 	 while($row = mysql_fetch_array($data)) {
@@ -68,5 +120,6 @@ function article_widget()
        $html .= '</div></div></div></div></div></div></div>';
        return $html;
 }
+
 
 ?>

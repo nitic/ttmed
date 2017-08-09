@@ -817,10 +817,10 @@ p.nspText{padding:0
 img.nspImage{opacity:0.1}.portfolio
 h4.nspHeader{padding:0
 !important}.portfolio h4.nspHeader
-a{display:block;height:1px;position:relative;z-index:-1;top:100px;padding-left:25px;padding-right:25px;color:#fff;font-size:16px;line-height:24px}.portfolio h4.nspHeader a:hover{color:#fff !important}.portfolio .nspArt:hover h4.nspHeader
+a{display:block;height:1px;position:relative;z-index:-1;top:100px;padding-left:5px;padding-right:5px;color:#fff;font-size:10pt;line-height:24px}.portfolio h4.nspHeader a:hover{color:#fff !important}.portfolio .nspArt:hover h4.nspHeader
 a{position:relative;z-index:999 !important;color:#fff}.t3-mastcol .portfolio h4.nspHeader a,
 .nav .portfolio h4.nspHeader
-a{top:70px}.t3-sidebar .t3-module .accordion,.accordion{margin-bottom:0}.t3-module .accordion-group{margin-bottom:0;border:none;border-bottom:1px solid #eee;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.t3-module .accordion-heading{border-bottom:none}.t3-module .accordion-heading .accordion-toggle{padding:0
+a{top:50px}.t3-sidebar .t3-module .accordion,.accordion{margin-bottom:0}.t3-module .accordion-group{margin-bottom:0;border:none;border-bottom:1px solid #eee;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.t3-module .accordion-heading{border-bottom:none}.t3-module .accordion-heading .accordion-toggle{padding:0
 15px 0 0}.t3-module .accordion-heading a.accordion-toggle
 i{padding:10px
 0 10px 26px;font-size:17.5px;background:#d7ae1c;color:#fff;margin-right:15px;width:38px}.t3-module .accordion-heading a.accordion-toggle{color:#222}.t3-module .accordion-heading a.accordion-toggle:hover
@@ -878,7 +878,7 @@ small{text-align:right}blockquote.pull-right small:before{content:''}blockquote.
 0px;padding:14px
 19px;background-color:#fff;border:1px
 solid #eee;border-radius:4px}ul.the-icons{list-style:none;margin-left:0}.the-icons
-li{float:left;width:25%;line-height:25px}.container{background:#fff}.t3-header{padding-top:60px;padding-bottom:24px}.t3-header
+li{float:left;width:25%;line-height:25px}.container{background:#fff}.t3-header{padding-top:10px;padding-bottom:24px}.t3-header
 .container{z-index:100;overflow:visible;background:none}.logo{float:left;display:inline-block}.logo h1,
 .logo h1
 a{display:inline-block;line-height:1;margin:8px
@@ -1351,7 +1351,7 @@ h4{}.nspLinks ul li h4
 a{text-decoration:none}.nspLinks ul li h4 a:hover{}.nspLinks ul li
 p{}.nspArts.left{float:right}.nspLinksWrap.left{float:left}.nspArts.right{float:left}.nspLinksWrap.right{float:right}.nspMain
 .unvisible{left:-9999px;position:absolute;top:auto}.gkResponsive img.nspImage,img.nspImage.gkResponsive{height:auto;width:100%!important}.nspArt
-img.nspImage{max-width:100%}.nspArtScroll1,.nspLinkScroll1{width:100%}.nspPages1{width:100%}.nspPages2{width:200%}.nspPages3{width:300%}.nspPages4{width:400%}.nspPages5{width:500%}.nspPages6{width:600%}.nspPages7{width:700%}.nspPages8{width:800%}.nspPages9{width:900%}.nspPages10{width:1000%}.nspCol1{width:100%}.nspCol2{width:50%}.nspCol3{width:33.3%}.nspCol4{width:25%}.nspCol5{width:20%}.nspCol6{width:16.66%}.nspCol7{width:14.285%}.nspCol8{width:12.5%}.nspCol9{width:11.1%}.nspCol10{width:10%}.nspCol11{width:9.09%}.nspCol12{width:8.33%}.nspCol13{width:7.69%}.nspCol14{width:7.14%}.nspCol15{width:6.66%}.nspCol16{width:6.25%}.nspCol17{width:5.88%}.nspCol18{width:5.55%}.nspCol19{width:5.26%}.nspCol20{width:5%}.nspList,.nspArtPage{opacity:0;-webkit-transition:opacity 0.5s ease-out;-moz-transition:opacity 0.5s ease-out;-ms-transition:opacity 0.5s ease-out;-o-transition:opacity 0.5s ease-out;transition:opacity 0.5s ease-out}.nspList.active,.nspArtPage.active{opacity:1}.neutral{color:#999;font-size:13px}.neutral
+img.nspImage{max-width:100%}.nspArtScroll1,.nspLinkScroll1{width:100%}.nspPages1{width:100%}.nspPages2{width:200%}.nspPages3{width:300%}.nspPages4{width:400%}.nspPages5{width:500%}.nspPages6{width:600%}.nspPages7{width:700%}.nspPages8{width:800%}.nspPages9{width:900%}.nspPages10{width:1000%}.nspCol1{width:100%}.nspCol2{width:50%}.nspCol3{width:33.3%}.nspCol4{width:25%}.nspCol5{width:20%}.nspCol6{width:16.66%}.nspCol7{width:14.285%}.nspCol8{width:12.5%}.nspCol9{width:11.1%}.nspCol10{width:10%}.nspCol11{width:9.09%}.nspCol12{width:8.33%}.nspCol13{width:7.69%}.nspCol14{width:7.14%}.nspCol15{width:6.66%}.nspCol16{width:6.25%}.nspCol17{width:5.88%}.nspCol18{width:5.55%}.nspCol19{width:5.26%}.nspCol20{width:5%}.nspCol21{width:24.7%}.nspList,.nspArtPage{opacity:0;-webkit-transition:opacity 0.5s ease-out;-moz-transition:opacity 0.5s ease-out;-ms-transition:opacity 0.5s ease-out;-o-transition:opacity 0.5s ease-out;transition:opacity 0.5s ease-out}.nspList.active,.nspArtPage.active{opacity:1}.neutral{color:#999;font-size:13px}.neutral
 a{color:#333;text-decoration:none}.neutral a:active,
 .neutral a:focus,
 .neutral a:hover{color:#777}.neutral
@@ -1419,7 +1419,7 @@ p{font-size:12px;color:#767676;padding:0
 /nyirok/templates/nyirok/css/template-ie.css
 ================================================================================*/
 .portfolio .nspArt img:hover, .portfolio .nspArt:hover
-img.nspImage{filter:alpha(opacity=20)}.nspCol3{width:expression((this.parentNode.clientWidth/3 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight']))+'px')}.nspCol4{width:expression((this.parentNode.clientWidth/4 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px')}#searchForm#searchFormfieldset.phrases input[type="radio"]{vertical-align:middle\0/ !important;margin-top:0px\0/ !important}
+img.nspImage{filter:alpha(opacity=20)}.nspCol3{width:expression((this.parentNode.clientWidth/3 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight']))+'px')}.nspCol4{width:expression((this.parentNode.clientWidth/4 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px')}#searchForm#searchFormfieldset.phrases input[type="radio"]{vertical-align:middle\0/ !important;margin-top:0px\0/ !important}.nspCol21{width:expression((this.parentNode.clientWidth/3 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight']))+'px')}
 
 
 /*===============================

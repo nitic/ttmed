@@ -8,8 +8,8 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
   
   <link rel="stylesheet" href="css/css-585ba.css" type="text/css" /> 
-  <link rel="stylesheet" href="css/css-17550.css" type="text/css" /> 
- 
+  <link rel="stylesheet" href="css/css-17550.css" type="text/css" />
+
   <script src="js/mootools-core.js" type="text/javascript"></script>
   <script src="js/core.js" type="text/javascript"></script>
   
@@ -88,17 +88,89 @@
   })();
 
 </script>
+
+
+  <!-- for king -->
+<style type="text/css">
+  .grayscale{
+  /* Firefox 10-34 */
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='saturate' values='0'/></filter></svg>#grayscale");
+  /*
+    Chrome 19+,
+    Safari 6+,
+    Safari 6+ iOS,
+    Opera 15+
+  */
+  -webkit-filter: grayscale(1);
+
+  /* Firefox 35+ */
+  filter: grayscale(1);
+
+  /* IE 6-9 */
+  filter: gray;
+}
+
+.gray-50 { -webkit-filter: grayscale( 50% ); filter: grayscale( 50% ); }
+
+
+/* black_ribbon */
+.black-ribbon {
+  position: fixed;
+  z-index: 9999;
+  width: 70px;
+}
+@media only all and (min-width: 768px) {
+  .black-ribbon {
+    width: auto;
+  }
+}
+
+.stick-left { left: 0; }
+.stick-right { right: 0; }
+.stick-top { top: 0; }
+.stick-bottom { bottom: 0; }
+
+
+/*Responsive Google Calendar Embed */
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100% ;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+</style>
+
 </head>
 
-<body>
+<body class="gray-50">
+
+<!-- Top Left -->
+<img src="images/black_ribbon_top_left.png" class="black-ribbon stick-top stick-left"/>
+
 <!-- HEADER -->
-<header id="t3-header" class="wrap t3-header">
+<header id="t3-header" class="wrap t3-header grayscale">
   <div class="container">
+     
+     <div class="row">
+       <div class="span10" style="text-align: center;">
+              <a href="https://stscholar.nstda.or.th/HMKingRama9/" title="ลงนามน้อมรำลึกในพระมหากรุณาธิคุณ" target="_blank"><img src="attachment/king59.jpg" border="0" style="float: center;" /></a>
+       </div>
+     </div>
+
   	<div class="row">
 
-      <!-- LOGO -->
-      <div class="span6 logo">
-        <div class="logo-image">
+      <!-- LOGO span6  remove style-->
+      <div class="span6 logo " >
+        <div class="logo-image" style="width:320px; float: left;">
           <h1>
             <a href="http://www.ttmed.psu.ac.th" title="คณะการแพทย์แผนไทย">
               <span> คณะการแพทย์แผนไทย มอ.</span>
@@ -106,19 +178,29 @@
             <small class="site-slogan hidden-phone"></small>
           </h1>
         </div>
+      
+      <!-- top banner 
+        <br/> 
+        <a href="http://www.ttmed.psu.ac.th" title="ขอน้อมส่งเสร็จสู่สวรรคาลัย ร่วมรำลึกพระมหากรุณาธิคุณ และถวายความอาลัย
+ข้าพระพุทธเจ้า อาจารย์ พนักงาน นักศึกษา คณะการแพทย์แผนไทย ม.สงขลานครินทร์" target="_blank"><img src="attachment/myking.jpg" border="0" style="float: right;" /></a>
+      end banner--> 
+
       </div>
       <!-- //LOGO -->
 
-<!-- HEAD SEARCH -->
- <div class="span6 top-header pull-right">     
+<!-- HEAD SEARCH  span6-->
+ <div class="span4 top-header pull-right">     
     <div class="custom">
-	<ul>
-	    <li><i class="icon-signin"> </i>ผู้สนใจศึกษาต่อ</li>
-	    <li><i class="icon-pencil"></i>อาจารย์</li>
-            <li><i class="icon-book"></i>นักศึกษา</li>
-            <li><i class="icon-cogs"></i>บุคลากร</li>
+	<ul style="font-size: 10pt">
+	    <li><i class="icon-bell"> </i>News</li>
+	  <!--  <li><i class="icon-envelope"></i>Email</li>-->
+        <li><i class="icon-book"></i>Library</li> 
+        <li><i class="icon-group"></i>Student</li>
+        <li><i class="icon-user"></i>Staff</li>
+        <li><i class="icon-cogs"></i>Alumni</li>
        </ul>
     </div>
+     <!--
  <form class="form-search" action="index.php" method="post">
      <div class="search">
 	<label for="mod-search-searchword">Search...</label>
@@ -128,6 +210,7 @@
 	<input type="hidden" name="Itemid" value="435" />
       </div>
  </form>
+ -->
 </div>
 <!-- //HEAD SEARCH -->
       

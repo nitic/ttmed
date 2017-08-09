@@ -38,11 +38,10 @@ else{   // No event ID is first time come to website
 	
 
 	// Pop-Up
-	// Create cookie Modal Frist time
-	// 1 is open
-	// 0 is close
-	
-	setcookie("myModalCheck",'1',time()+3600); 
+	// Create cookie Modal Frist time (ps. code in blog.php)
+	// 1 is open popup
+	// 0 is close popup
+	setcookie("myModalCheck",'0',time()+3600); 
 
 
 	

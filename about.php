@@ -25,6 +25,9 @@ switch ($_GET["page"]) {
         case 'contact':
 		include("contact.php");
 		break;
+      case 'calendar':
+    include("calendar.php");
+    break;
 	default:
 		include("vision.php");
 		break;
@@ -120,12 +123,15 @@ include("controller/tag.php");
 <div class="itemBody">
 
 <!-- Item Image -->
+<?php 
+ if(!empty($image)): ?>
 <div class="itemImageBlock">
   <span class="itemImage">
   <a class="modal" rel="{handler: 'image'}" href="#" title="<?php echo $title; ?>">
   <img src="images/<?php echo $image; ?>" alt="<?php echo $title; ?>" style="width:800px; height:auto;" /></a></span>
   <div class="clr"></div>
 </div>
+<?php endif; ?>
 	  
 <!-- Item Content -->
 <?php echo $content; ?>

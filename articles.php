@@ -2,6 +2,33 @@
 include("header.php");
 include("controller/article.php");
 include("controller/tag.php");
+require_once("plugin/pagination/Pagination.class.php");
+
+
+
+
+    // determine page (based on <_GET>)
+    $page = isset($_GET['page']) ? ((int) $_GET['page']) : 1;
+	$type = isset($_GET['type']) ? ((int) $_GET['type']) : '"" or 1=1';
+
+$records_per_page = 20;
+$records_total = count_article($type); 
+
+	
+$limit = ($page - 1) * $records_per_page;
+	
+    // instantiate; set current page; set number of records
+    $pagination = (new Pagination());
+    $pagination->setCurrent($page);
+	
+	//Sets the number of records per page
+	$pagination->setRPP($records_per_page);
+	//Sets the total number of records available for pagination.
+	$pagination->setTotal($records_total);
+
+    // grab rendered/parsed pagination markup
+    $markup = $pagination->parse();
+
 ?>
   
  
@@ -42,20 +69,27 @@ include("controller/tag.php");
 	
 	<!-- K2 Plugins: K2BeforeDisplay -->
 	
-		<!-- Date created -->
-	<div class="k2InfoWrap">
-   	    <div class="k2DateInfo">
-		  <span class="itemDateCreated">Apr</span>		
-		  <span class="itemDayCreated">23</span>
-		  <span class="itemDateCreated">2013</span>	
-           </div>	        	
-        </div> <!--End K2 Info Wrapper -->
+	
 	
    <div class="k2ContentWrap">
     <div class="itemHeader">
 
 <!-- Item title -->
-    <h2 class="itemTitle">Article Pages</h2>  
+    <h2 class="itemTitle">
+	<?php 
+		switch($type){
+			case 1 : echo "บทความทั่วไป"; break;
+			case 2 : echo "บทความงานวิจัย"; break;
+			case 3 : echo "บทความทางเวชกรรมไทย"; break;
+			case 4 : echo "บทความทางเภสัชกรรมไทย"; break;
+			case 5 : echo "บทความทางผดุงครรภ์ไทย"; break;
+			case 6 : echo "บทความทางนวดไทย"; break;
+			case 99 : echo "บทความประชาสัมพันธ์"; break;
+			default : echo "บทความทั้งหมด"; break;
+		}
+	
+	?>
+	</h2>  
   </div>
 
   <!-- Plugins: AfterDisplayTitle -->
@@ -65,7 +99,7 @@ include("controller/tag.php");
 	  <div class="itemToolbar">
 		<ul>
                   <!-- Item Author -->
-		<li><span class="itemAuthor">Written by&nbsp;<a rel="author" href="../../../user-k2-blog.html">Super User</a></span></li>
+		<li><span class="itemAuthor">จำนวน&nbsp;<a rel="author" href="#"><?php echo $records_total;?></a> เรื่อง</span></li>
 			            
 		  <!-- Item category -->
 		<li><span class="itemCategory">Published in <a href="../../printing.html">Printing</a></span></li>    
@@ -91,7 +125,7 @@ include("controller/tag.php");
 		<div class="clr"></div>
   </div>
 	
-  <div class="itemBody">
+  <div class="itemBody span8">
 
 	  <!-- Plugins: BeforeDisplayContent -->
 	  
@@ -99,10 +133,7 @@ include("controller/tag.php");
 	  
 	  	  <!-- Item Image -->
 	  <div class="itemImageBlock">
-	    <span class="itemImage">
-		<a class="modal" rel="{handler: 'image'}" href="images/blog/245effadf41c6129f4fe7accc564ef86_XL.jpg" title="Click to preview image">
-		<img src="images/blog/245effadf41c6129f4fe7accc564ef86_L.jpg" alt="All rights reserved by Parka81" style="width:800px; height:auto;" />
-		</a></span>
+	 
 
 		  <!-- Image caption
 		  <span class="itemImageCaption">All rights reserved by Parka81</span>
@@ -115,8 +146,25 @@ include("controller/tag.php");
 	  
 	  	  	  <!-- Item fulltext -->
 	  <div class="itemFullText">
-	  	
-    <p>Cooming Soon....</p>
+        <p>
+		   
+                                <table class="table table-bordered table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:80px;background-color:#eee;color:#000">วันที่</th>
+                                            <th style="background-color:#eee;color:#000">ชื่อบทความ</th>
+                                            <th style="width:95px;background-color:#eee;color:#000">ประเภท</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                       <?php echo article_table($limit, $type); ?>
+                                    </tbody>
+                                </table>
+				<div class="pagination">				
+				 <?php echo $markup; ?>
+			    </div>
+				
+		</p>
      </div>
 	  	  
 		<div class="clr"></div>
@@ -125,98 +173,9 @@ include("controller/tag.php");
   <!-- Plugins: AfterDisplayContent -->	  
  <!-- K2 Plugins: K2AfterDisplayContent -->
 </div>
-      <div class="itemContentFooter">
-		<!-- Item Hits -->
-		<span class="itemHits">Read <b>999</b> times</span>
-			
-		<!-- Item date modified -->
-		<span class="itemDateModified">Last modified on Thursday, 06 June 2013 07:18</span>
-			
-		<div class="clr"></div>
-      </div>
-      <div class="itemLinks">
-
-<!-- Item tags -->
-	  <div class="itemTagsBlock">
-		  <span>Tagged under</span>
-		  <ul class="itemTags">
-		    		    <li><a href="../itemlist/tag/Branding.html">Branding</a></li>
-		    		    <li><a href="../itemlist/tag/Website&#32;Design.html">Website Design</a></li>
-		    		    <li><a href="../itemlist/tag/Inspiration.html">Inspiration</a></li>
-		    		  </ul>
-		  <div class="clr"></div>
-	  </div>
-	  
-	        
-<!-- Item Rating -->
-	<div class="itemRatingBlock">
-	<span>Rate this item</span>
-	<div class="itemRatingForm">
-	<ul class="itemRatingList">
-	<li class="itemCurrentRating" id="itemCurrentRating73" style="width:0%;"></li>
-	<li><a href="73-so-whoever-does-an-atom-s-weight-of-good-will-see-it.html#" rel="73" title="1 star out of 5" class="one-star">1</a></li>
-	<li><a href="73-so-whoever-does-an-atom-s-weight-of-good-will-see-it.html#" rel="73" title="2 stars out of 5" class="two-stars">2</a></li>
-	<li><a href="73-so-whoever-does-an-atom-s-weight-of-good-will-see-it.html#" rel="73" title="3 stars out of 5" class="three-stars">3</a></li>
-	<li><a href="73-so-whoever-does-an-atom-s-weight-of-good-will-see-it.html#" rel="73" title="4 stars out of 5" class="four-stars">4</a></li>
-	<li><a href="73-so-whoever-does-an-atom-s-weight-of-good-will-see-it.html#" rel="73" title="5 stars out of 5" class="five-stars">5</a></li>
-	</ul>
-	   <div id="itemRatingLog73" class="itemRatingLog">(0 votes)</div>
-	   <div class="clr"></div>
-	</div>
-	<div class="clr"></div>
-	</div>
-	<div class="clr"></div>
-</div>
- 
-<!-- Social sharing -->
-	<div class="itemSocialSharing">
     
-				<!-- Google +1 Button -->
-		<div class="itemGooglePlusOneButton">
-			<g:plusone annotation="inline" width="120"></g:plusone>
-			<script type="text/javascript">
-			  (function() {
-			  	window.___gcfg = {lang: 'en'}; // Define button default language here
-			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-			    po.src = 'https://apis.google.com/js/plusone.js';
-			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-			  })();
-			</script>
-		</div>
-
-		
-		<!-- Facebook Button -->
-		<div class="itemFacebookButton">
-			<div id="fb-root"></div>
-			<script type="text/javascript">
-				(function(d, s, id) {
-				  var js, fjs = d.getElementsByTagName(s)[0];
-				  if (d.getElementById(id)) return;
-				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-				  fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-			</script>
-			<div class="fb-like" data-send="false" data-width="200" data-show-faces="true"></div>
-		</div>
-		
-		<div class="clr"></div>
-	</div>
+ 
 	
-<a name="itemCommentsAnchor" id="itemCommentsAnchor"></a>
-<div class="itemComments">
-<!-- Item comments form -->
-<div class="itemCommentsForm">	  	
-<h3>Leave a comment</h3>
-<p class="itemCommentsFormNotes">
-		Make sure you enter the (*) required information where indicated.Basic HTML code is allowed.	</p>          
-     <!-- Facebook Comment -->
-</div>
-</div>
-  
-  <!-- Plugins: AfterDisplay -->
-  <!-- K2 Plugins: K2AfterDisplay -->
-
    </div>
 </div>
 <!-- End K2 Item Layout -->
@@ -232,12 +191,14 @@ include("controller/tag.php");
 <div class="module-inner">
 <h3 class="module-title "><span>ประเภทบทความ</span></h3><div class="module-ct">
 <ul class="nav ">
-<li class="item-435"><a href="articles.php" >บทความทั่วไป</a></li>
-<li class="item-233 active parent"><a href="articles.php" >บทความงานวิจัย</a></li>
-<li class="item-238 parent"><a href=".articles.php" >บทความทางเวชกรรมไทย</a></li>
-<li class="item-489"><a href="articles.php" >บทความทางเภสัชกรรมไทย</a></li>
-<li class="item-532"><a href="articles.php" >บทความทางผดุงครรภ์ไทย</a></li>
-<li class="item-491"><a href="articles.php" >บทความทางนวดไทย</a></li>
+<li class="item-435"><a href="articles.php" >บทความทั้งหมด</a></li>
+<li class="item-435"><a href="articles.php?type=1" >บทความทั่วไป</a></li>
+<li class="item-233 active parent"><a href="articles.php?type=2" >บทความงานวิจัย</a></li>
+<li class="item-238 parent"><a href="articles.php?type=3" >บทความทางเวชกรรมไทย</a></li>
+<li class="item-489"><a href="articles.php?type=4" >บทความทางเภสัชกรรมไทย</a></li>
+<li class="item-532"><a href="articles.php?type=5" >บทความทางผดุงครรภ์ไทย</a></li>
+<li class="item-491"><a href="articles.php?type=6" >บทความทางนวดไทย</a></li>
+<li class="item-491"><a href="articles.php?type=99" >บทความประชาสัมพันธ์</a></li>
 </ul>
 </div></div></div>
 
